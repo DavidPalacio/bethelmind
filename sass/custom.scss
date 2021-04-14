@@ -13,9 +13,9 @@ $font-family-monospace: 'Satisfy', cursive;
 }
 
 /*Modificando Fondos de las Cards*/
-.fondoMD {
-    background-image: url(../assets/T1.jpg);
-
-}
+@for $i from 1 through 3 {
+    .fondo#{$i} { background-image: url(../assets/T#{$i}.jpg); }
+  }
+  
 
 @import "../node_modules/bootstrap/scss/bootstrap";
