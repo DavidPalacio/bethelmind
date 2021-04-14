@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
+    <title>Bethel Mind - Inicio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- Mis Estilos      -->
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+
+  <!--Menú, Aplicando Bootstrap Desafio 9-->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid d-flex">
+        <a class="navbar-brand top" href="#">
+          <img src="assets/Logo_BM_Shadow.png" alt="" width="50" height="50" class="d-inline-block align-text-top">
+          <p class="h1 font-monospace">Bethelmind - Digital Premium</p>
+        </a>
+
+        <!--Botón de Bootstrap para Menu en Movil-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--Menú, de Bootstrap-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="servicios.html">¿Qué hacemos?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="casos.html">Casos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactanos.html">Contáctanos</a>
+            </li>
+            
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Esta Sección Utiliza GRID-BS-->
+    <section class="servicios">
+      <div class="container d-flex align-items-center justify-content-center alto-100">
+        <div class="row">
+        <!-- Columna Derecha-->
+          <div class="col-12 col-md-8">
+            <!--Division de 2 columnas-->
+            <div class="row">
+              <div class="col-12 p-2">
+                <article class="card h-100 fondoMD">
+                    <div class="card-body">
+                        <h4>Marketing Digital</h4>
+                        <p class="fs-6">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis qui eaque labore architecto officiis natus, ratione totam. Nihil ipsa dolores libero facilis similique quam eligendi fugit! Voluptatem repudiandae temporibus non.
+                        </p>
+                    </div>
+                </article>
+              </div>
+              <div class="col-12 p-2">
+                <article class="card h-100 bg-warning">
+                    <div class="card-body">
+                        <h4>Diseño Web</h4>
+                        <p class="fs-6">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis qui eaque labore architecto officiis natus, ratione totam. Nihil ipsa dolores libero facilis similique quam eligendi fugit! Voluptatem repudiandae temporibus non.
+                        </p>
+                    </div>
+                </article>
+              </div>
+            </div>
+          </div>
+          <!-- Columna Izquerda-->
+          <div class="col-12 col-md-4 p-2 ">
+            <article class="card h-100 bg-danger">
+                <div class="card-body">
+                    <h4>Community Manager</h4>
+                    <p class="fs-6">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis qui eaque labore architecto officiis natus, ratione totam. Nihil ipsa dolores libero facilis similique quam eligendi fugit! Voluptatem repudiandae temporibus non.
+                    </p>
+                </div>
+            </article>
+          </div>
+
+        </div>
+
+
+      </div>
+    </section>
+  </main>
+
+    <footer id="footer">
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm">
+              <h3>Contáctanos</h3>
+
+            </div>
+            <div class="col-sm">
+              <p>
+                t: +57-3168008414 <br>
+                e: angieg@bethelmind.com <br>
+                a: Colombia
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm">
+              <h1>Hablemos</h1>
+            </div>
+            <div class="col-sm">
+              <p>
+                Aportando ideas creativas para su negocio
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <p>Diseñado por Synergy.Tech by David Palacio - Todos los derechos Reservados. 2021</p>
+      <!-- Iconos y enlaces a Redes Sociales-->
+    </section>
+    </footer>
+  </body>
+
+  <!--Seccion de Scripts de BS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+</html>

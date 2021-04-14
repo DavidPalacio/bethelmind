@@ -1,0 +1,21 @@
+/*Modificando las Fuentes del Bootstrap */
+
+$font-family-sans-serif: 'Source Sans Pro', sans-serif;
+$font-family-monospace: 'Satisfy', cursive;
+
+
+/*Ajustando Altura para tarjeta en pantalla pequeña*/
+@media (min-width: 768px) {
+    .alto-100 {
+        height: 100vh;
+
+    }
+}
+
+/*Modificando Fondos de las Cards*/
+.fondoMD {
+    background-image: url(../assets/T1.jpg);
+
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
