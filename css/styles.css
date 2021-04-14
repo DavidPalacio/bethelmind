@@ -6,8 +6,15 @@
     height: 100vh; } }
 
 /*Modificando Fondos de las Cards*/
-.fondoMD {
+.fondo1 {
   background-image: url(../assets/T1.jpg); }
+
+
+.fondo2 {
+  background-image: url(../assets/T2.jpg); }
+
+.fondo3 {
+  background-image: url(../assets/T3.jpg); }
 
 /*!
  * Bootstrap v5.0.0-beta3 (https://getbootstrap.com/)
