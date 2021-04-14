@@ -9,12 +9,26 @@
 .fondo1 {
   background-image: url(../assets/T1.jpg); }
 
-
 .fondo2 {
   background-image: url(../assets/T2.jpg); }
 
 .fondo3 {
   background-image: url(../assets/T3.jpg); }
+
+/*Importacion de Estilos del Footer */
+/*Usando Maps*/
+/*Creamos el bucle para usar los valores del mapa para modificar los iconos de Redes*/
+.bi-instagram {
+  background-color: #C25E30;
+  font-size: 25px; }
+
+.bi-facebook {
+  background-color: #55acee;
+  font-size: 25px; }
+
+.bi-linkedin {
+  background-color: #3a5795;
+  font-size: 25px; }
 
 /*!
  * Bootstrap v5.0.0-beta3 (https://getbootstrap.com/)

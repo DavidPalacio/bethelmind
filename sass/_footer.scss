@@ -1,0 +1,15 @@
+
+/*Usando Maps*/
+
+$redes: ( /*Declaramos nuestro mapa*/
+        instagram: #C25E30,
+        facebook:  #55acee,
+        linkedin: #3a5795
+); 
+/*Creamos el bucle para usar los valores del mapa para modificar los iconos de Redes*/
+@each $red, $color in $redes {
+   .bi-#{$red} {
+       background-color: $color;
+       font-size: 25px;
+   }
+}

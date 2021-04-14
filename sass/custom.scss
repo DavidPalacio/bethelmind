@@ -15,7 +15,9 @@ $font-family-monospace: 'Satisfy', cursive;
 /*Modificando Fondos de las Cards*/
 @for $i from 1 through 3 {
     .fondo#{$i} { background-image: url(../assets/T#{$i}.jpg); }
-  }
-  
+}
+
+/*Importacion de Estilos del Footer */
+@import "../sass/footer";
 
 @import "../node_modules/bootstrap/scss/bootstrap";
