@@ -7,19 +7,19 @@
     
     <title>Bethel Mind - Inicio</title>
     <link href="https://fonts.googleapis.com/css2?family=Satisfy&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
     <!-- Mis Estilos      -->
-    <link rel="stylesheet" href="scss/styles.css">
-  </head>
-  <body>
+    <link rel="stylesheet" href="css/custom.css">
 
-  <!--Menú, Aplicando Bootstrap Desafio 9-->
+  </head>
+  <body class="text-white">
+
+  <!--Menú-->
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-fixed-top bg-transparent">
+      <div class="container-fluid d-flex">
         <a class="navbar-brand top" href="#">
-          <img src="assets/Logo_BM_Shadow.png" alt="" width="50" height="50" class="d-inline-block align-text-top">
-          Bethelmind - Digital Premium
+          <img src="assets/LogoText_Color.png" alt="Bethelmind - Digital Premium" width="400" class="d-inline-block align-text-top">
         </a>
 
         <!--Botón de Bootstrap para Menu en Móvil-->
@@ -54,44 +54,70 @@
   </header>
 
   <main>
-    <div id="content">
-      <section class="articles">
-      <!--encabezados-->
-        <article>
-          <img src="assets/img01.png" alt="Super Man" width="100px">
-          <h3>Plan Estratégico de Marketing - Puebliando</h3>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit vitae tempora odit veritatis eum commodi ex saepe culpa iste, explicabo rerum temporibus atque error reiciendis est necessitatibus sunt ratione eos!
-          </p>
-        </article>
+    <section>
+      <div class="col-5 bg-transparent border-0 title position-relative start-50">
+        <p class="display-1"> -Casos de Éxito</p>     
+      </div>
+    </section>
 
-        <article>
-          <img src="assets/img02.png" alt="Wonder Woman" width="100px">
-          <h3>Plan de publicaciones en Redes - BM</h3>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae nihil illo laborum vel aliquam nesciunt, praesentium pariatur necessitatibus voluptatem quaerat adipisci velit distinctio quam rerum facere? Aspernatur, laboriosam error. Est, cupiditate! Ducimus necessitatibus ab exercitationem! Perspiciatis dicta debitis praesentium aperiam.
-          </p>
-        </article>
-
-        <article>
-          <img src="assets/img03.png" alt="Iron Man" width="100px">
-          <h3>Diseño Pagina Web - Synergy</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nulla in minus debitis non magnam dicta quibusdam labore, voluptas aliquid.
-          </p>
-        </article>
-
-
-      </section>
-    </div>
+    <section class="container m-5 align-self-center">
+      <div class="row">
+        <div class="col-12 p-2">
+          <article class="card card-Blur h-100" data-tilt>
+            <div class="card-body">
+              <div class="d-flex mb-3">
+                <img src="./assets/Caso01.png" height="50px" alt="Puebliando" class="rounded-circle">
+                <div class="ps-3">
+                  <h2 class="m-1">Plan Estratégico de Marketing - Puebliando</h2>
+                  <p class="m-1 h6">Diseñamos el plan de marketing Basados en sus objetivo, entendiendo quienes son sus clientes objetivos y su propuesta de valor; contemplamos las redes que deben usar, su tono e imagen, creamos el calendario y plan de anuncios.</p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+  
+      <div class="row">
+        <div class="col-12 col-lg-6 p-2">
+          <article class="card card-Blur h-100" data-tilt>
+            <div class="card-body">
+              <div class="d-flex mb-3">
+                <img src="./assets/Caso02.png" height="50px" alt="Cafe Emprendedor" class="rounded-circle">
+                <div class="ps-3">
+                  <h2 class="m-1">Plan de publicaciones en Redes - Cafe Emprendedor</h2>
+                  <p class="m-1 h6">¿Quieres un cafe? En cafe emprendedor realizamos las campañas y anuncios en Instagram, así mostramos a los prospectos la experiencia que pueden vivir en Cafe Emprendedor</p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+  
+        <div class="col-12 col-lg-6 p-2">
+          <article class="card card-Blur h-100" data-tilt>
+            <div class="card-body">
+              <div class="d-flex mb-3">
+                <img src="./assets/Caso03.png" height="50px" alt="Synergy.Tech" class="rounded-circle">
+                <div class="ps-3">
+                  <h2 class="m-1">Diseño Pagina Web - Synergy</h2>
+                  <p class="m-1 h6 lh-2">Realizamos el Diseño e implementación del sitio Web para Synergy.Tech, Empresa de Ingeniería y Desarrollo de Equipos de control y automatización.</p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+  
+    </section>
   </main>
 
-    <footer id="footer">
+     <footer id="footer">
       <section>
         <div class="container">
-          <div class="row">
-            <div class="col-sm">
+          <div class="row p-4">
+            <div class="col-sm-6 ">
               <h3>Contáctanos</h3>
-
             </div>
-            <div class="col-sm">
+            <div class="col-sm-3">
               <p>
                 t: +57-3168008414 <br>
                 e: angieg@bethelmind.com <br>
@@ -99,25 +125,44 @@
               </p>
             </div>
           </div>
+
           <div class="row">
-            <div class="col-sm">
+            <div class="col-sm-6 ">
               <h1>Hablemos</h1>
+              <!-- Iconos y enlaces a Redes Sociales-->
+              <i class="bi bi-instagram"></i>
+              <i class="bi bi-facebook"></i>
+              <i class="bi bi-linkedin"></i>
             </div>
-            <div class="col-sm">
+            <div class="col-sm-3">
               <p>
                 Aportando ideas creativas para su negocio
               </p>
             </div>
           </div>
+
+          <div class="row h-25">
+            <p>Diseñado por Synergy.Tech by David Palacio - Todos los derechos Reservados. 2021</p>
+          </div>
         </div>
         
-        <p>Diseñado por Synergy.Tech by David Palacio - Todos los derechos Reservados. 2021</p>
-      <!-- Iconos y enlaces a Redes Sociales-->
     </section>
     </footer>
+
+   <!--Efectoi movimiento de Cards-->
+   <script type="text/javascript" src="./js/vanilla-tilt.js"></script>
+   <script type="text/javascript">
+     VanillaTilt.init(document.querySelector(".card"), {
+       max: 25,
+       speed: 400,
+       glare: true,
+       "max-glare": 1,
+     });
+   </script>  <!--Seccion de Scripts de BS-->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
   </body>
 
-  <!--Seccion de Scripts de BS-->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+ 
 
 </html>

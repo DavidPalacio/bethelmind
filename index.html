@@ -7,45 +7,26 @@
     
     <title>Bethel Mind - Inicio</title>
     <link href="https://fonts.googleapis.com/css2?family=Satisfy&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
     <!-- Mis Estilos      -->
-    <link rel="stylesheet" href="css/styles.css">
-
-    <!-- Facebook Pixel Code -->
-<script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '992365581321050');
-  fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=992365581321050&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Facebook Pixel Code -->
+    <link rel="stylesheet" href="css/custom.css">
 
   </head>
-  <body>
+  <body class="text-white">
 
-  <!--Menú, Aplicando Bootstrap Desafio 9-->
+  <!--Menú-->
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-fixed-top bg-transparent">
       <div class="container-fluid d-flex">
         <a class="navbar-brand top" href="#">
-          <img src="assets/Logo_BM_Shadow.png" alt="" width="50" height="50" class="d-inline-block align-text-top">
-          <p class="h1 font-monospace">Bethelmind - Digital Premium</p>
+          <img src="assets/LogoText_Color.png" alt="Bethelmind - Digital Premium" class="d-inline-block align-text-top">
         </a>
 
         <!--Botón de Bootstrap para Menu en Movil-->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+
         <!--Menú, de Bootstrap-->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
@@ -74,36 +55,33 @@
   </header>
 
   <main>
-    <section class="title">
-      <h1>Ideas Innovadoras & Creatividad</h1>
-
-
+    <section>
+      <div class="col-5 bg-transparent border-0 title position-relative start-50">
+        <p class="display-1"> -Ideas Innovadoras & Creatividad</p>     
+      </div>
     </section>
+
     <!-- Esta Sección Utiliza GRID-BS-->
     <section class="servicios">
       <div class="container d-flex align-items-center justify-content-center alto-100">
-        <div class="row">
+        <div class="row row-cols-md-3 h-100">
         <!-- Columna Derecha-->
           <div class="col-12 col-md-8">
             <!--Division de 2 columnas-->
-            <div class="row">
+            <div class="row h-100">
               <div class="col-12 p-2">
-                <article class="card h-100 fondo1">
-                    <div class="card-body">
+                <article class="card border-0 h-100 fondo1 transformScale">
+                  <div class="card-body">
                         <h4>Marketing Digital</h4>
-                        <p class="fs-6">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis qui eaque labore architecto officiis natus, ratione totam. Nihil ipsa dolores libero facilis similique quam eligendi fugit! Voluptatem repudiandae temporibus non.
-                        </p>
+                        <p>El Verdadero Valor de darte a conocer a tus futuros clientes, que conozcan tu propuesta de valor</p>
                     </div>
                 </article>
               </div>
               <div class="col-12 p-2">
-                <article class="card h-100 fondo2">
+                <article class="card border-0 h-100 fondo2 transformScale">
                     <div class="card-body">
-                        <h4>Diseño Web</h4>
-                        <p class="fs-6">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis qui eaque labore architecto officiis natus, ratione totam. Nihil ipsa dolores libero facilis similique quam eligendi fugit! Voluptatem repudiandae temporibus non.
-                        </p>
+                      <h4>Diseño Web</h4>
+                        <p>Crea el Espacio digital para mostrar tu marca</p>
                     </div>
                 </article>
               </div>
@@ -111,12 +89,10 @@
           </div>
           <!-- Columna Izquerda-->
           <div class="col-12 col-md-4 p-2 ">
-            <article class="card h-100 fondo3">
-                <div class="card-body">
+            <article class="card border-0 h-100 fondo3 transformScale">
+              <div class="card-body">
                     <h4>Community Manager</h4>
-                    <p class="fs-6">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis qui eaque labore architecto officiis natus, ratione totam. Nihil ipsa dolores libero facilis similique quam eligendi fugit! Voluptatem repudiandae temporibus non.
-                    </p>
+                    <p>Administramos tus Redes Sociales</p>
                 </div>
             </article>
           </div>
@@ -126,17 +102,86 @@
 
       </div>
     </section>
+
+    <section >
+      <div class="container d-grid">
+        <div class="row justify-content-md-center d-flex align-items-center">
+          <!-- Columna Derecha-->
+            <div class="col-12 col-md-1">
+            </div>
+            <!-- Columna Central-->
+            <div class="col-12 col-md-7 gap-3">
+              <h1 class="display-1">¿Cómo lo logramos?</h1>
+            </div>
+        </div>
+
+        <div class="row align-middle p-4">
+          <!-- Columna Derecha-->
+            <div class="col-12 col-md-1">
+            </div>
+            <div class="col-12 col-md-6 ">
+              <h2>Obtenga una ventaja digital</h2>
+              <h3>Estrategias innovadoras</h3>
+              <p>Realizamos un constante seguimiento a las Tendencias en Marketing Digital, de esta manera diseñamos estrategias que llegan a los clientes objetivo, y así generar conversiones.
+              </p>
+            </div>
+            <div class="col-12 col-md-4">
+              <img src="assets/pic-03-free-img.jpg" alt="Marketing Digital"  width="75%">
+            </div>
+            <div class="col-12 col-md-3">
+            </div>
+        </div>
+
+        <div class="row align-middle p-4">
+          <!-- Columna Derecha-->
+            <div class="col-12 col-md-1">
+            </div>
+            <div class="col-12 col-md-4">
+              <img src="assets/KPI-BM.png" alt="KPI"  width="75%">
+            </div>
+            <div class="col-12 col-md-6">
+              <h2>Soluciones orientadas a resultados</h2>
+              <h3>Estrategias Comerciales</h3>
+              <p>Nuestra experiencia comercial, nos permiten orientar nuestros esfuerzos hacia los objetivos definidos; realizamos la medición constante de los KPIs y OKRs.
+              </p>
+            </div>
+            <div class="col-12 col-md-3">
+            </div>
+        </div>
+
+        <div class="row align-middle p-4">
+          <!-- Columna Derecha-->
+            <div class="col-12 col-md-1">
+            </div>
+            <div class="col-12 col-md-6">
+              <h2>Del arte a la ciencia</h2>
+              <h3>Tácticas personalizadas</h3>
+              <p>Diseñamos cada Propuesta de forma personalizada, nuestro Principal Enfoque es conocer tu modelo de negocio y de esta manera definir la estrategia que te llevará a cumplir tus metas.
+              </p>
+            </div>
+            <div class="col-12 col-md-4">
+              <img src="assets/pic-001-free-img.jpg" alt="Marketing Digital" width="75%">
+            </div>
+            <div class="col-12 col-md-3">
+            </div>
+        </div>
+
+
+      </div>
+    </section>
+
+
+
   </main>
 
     <footer id="footer">
       <section>
         <div class="container">
-          <div class="row">
-            <div class="col-sm">
+          <div class="row p-4">
+            <div class="col-sm-6 ">
               <h3>Contáctanos</h3>
-
             </div>
-            <div class="col-sm">
+            <div class="col-sm-3">
               <p>
                 t: +57-3168008414 <br>
                 e: angieg@bethelmind.com <br>
@@ -144,24 +189,27 @@
               </p>
             </div>
           </div>
+
           <div class="row">
-            <div class="col-sm">
+            <div class="col-sm-6 ">
               <h1>Hablemos</h1>
+              <!-- Iconos y enlaces a Redes Sociales-->
               <i class="bi bi-instagram"></i>
               <i class="bi bi-facebook"></i>
               <i class="bi bi-linkedin"></i>
             </div>
-            <div class="col-sm">
+            <div class="col-sm-3">
               <p>
                 Aportando ideas creativas para su negocio
               </p>
             </div>
           </div>
-        </div>
-        <!-- Iconos y enlaces a Redes Sociales-->
 
-        <p>Diseñado por Synergy.Tech by David Palacio - Todos los derechos Reservados. 2021</p>
-      <!-- Iconos y enlaces a Redes Sociales-->
+          <div class="row h-25">
+            <p>Diseñado por Synergy.Tech by David Palacio - Todos los derechos Reservados. 2021</p>
+          </div>
+        </div>
+        
     </section>
     </footer>
   </body>
