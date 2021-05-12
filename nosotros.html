@@ -7,25 +7,26 @@
     
     <title>Bethel Mind - Inicio</title>
     <link href="https://fonts.googleapis.com/css2?family=Satisfy&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
     <!-- Mis Estilos      -->
-    <link rel="stylesheet" href="scss/styles.css">
-  </head>
-  <body>
+    <link rel="stylesheet" href="css/custom.css">
 
-  <!--Menú, Aplicando Bootstrap Desafio 9-->
+  </head>
+  <body class="text-white nosotros">
+
+  <!--Menú-->
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-fixed-top bg-transparent">
+      <div class="container-fluid d-flex">
         <a class="navbar-brand top" href="#">
-          <img src="assets/Logo_BM_Shadow.png" alt="" width="50" height="50" class="d-inline-block align-text-top">
-          Bethelmind - Digital Premium
+          <img src="assets/LogoText_Color.png" alt="Bethelmind - Digital Premium" width="400" class="d-inline-block align-text-top">
         </a>
 
         <!--Botón de Bootstrap para Menu en Movil-->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+
         <!--Menú, de Bootstrap-->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
@@ -54,43 +55,73 @@
   </header>
 
   <main>
-    <section class="contNosotros">
-        <div class="contObjetivo">
-          <div class="contObjetivo contObjetivo__titulo">
-            Nuestro Objetivo
-          </div>
-          <p class="contObjetivo contObjetivo__contenido">
-            Somos un equipo... Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-        </div>
-
-        <div class="nosotros">
-            <div class="nosotros nosotros__titulo">
-              Angie Guerrero
-            </div>
-            <p class="nosotros nosotros__actividad">
-              Apasionada por el Marketing, Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <strong class="nosotros nosotros__actividad--bold">Ut enim ad minim veniam</strong>, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-
-            <div class="nosotros nosotros__titulo">
-              David Palacio
-            </div>
-            <p class="nosotros nosotros__actividad">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <strong class="nosotros nosotros__actividad--bold"> Ut enim ad minim veniamDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat</strong> non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-        </div>
+    <section>
+      <div class="col-5 bg-transparent border-0 title position-relative start-50">
+        <p class="display-1"> -Acerca de Nosotros</p>     
+      </div>
     </section>
+
+  <section class="container m-5 align-items-center justify-content-center">
+    <div class="row">
+      <div class="col-12 p-2">
+        <article class="card card-Blur h-100" data-tilt>
+          <div class="card-body">
+            <div class="d-flex mb-3">
+              <img src="./assets/Logo_BM_Shadow.png" height="50px" alt="Bethelmind" class="rounded-circle">
+              <div class="ps-3">
+                <h5 class="m-1">¿Quiénes Somos?</h5>
+                <p class="m-1 h6"> Somos un equipos de jóvenes, apasionados por el Marketing Digital y la Tecnología. Somos el  factor decisivo de tu éxito Nuestro principal objetivo es ayudar a emprendedores e independientes a Fortalecer su marca mediante la implementación de un Plan de Marketing Digital que genere reconocimiento de marca y ventas.</p>
+                <p class="fs-6 lh-1 ">Nuestra experiencia nos permite aportar valor en la operación y obtención de resultados de nuestros clientes.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 col-lg-6 p-2">
+        <article class="card card-Blur h-100" data-tilt>
+          <div class="card-body">
+            <div class="d-flex mb-3">
+              <img src="./assets/AG.jfif" height="50px" alt="Bethelmind" class="rounded-circle">
+              <div class="ps-3">
+                <h5 class="m-1">Angie Guerrero</h5>
+                <p class="m-1 h6"> Soy Community Manager, Apasionada por el Marketing, y comprometida con mis clientes, busco entender tu negocio y asi establecer la mejor Estrategia para Tu Empresa.</p>
+                <p class="h5">
+                  Me gusta asumir retos, porque me permiten crecer y prepararme para dar el siguiente paso.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-12 col-lg-6 p-2">
+        <article class="card card-Blur h-100" data-tilt>
+          <div class="card-body">
+            <div class="d-flex mb-3">
+              <img src="./assets/DP.jfif" height="50px" alt="Bethelmind" class="rounded-circle">
+              <div class="ps-3">
+                <h5 class="m-1">David Palacio</h5>
+                <p class="m-1 h6 lh-2"> Soy ingeniero de corazón, la mecatrónica me encanta porque me ha permitido tener una visión holística de los problemas y sobre todo de las soluciones; Me motiva el integrar soluciones y buscar como resolver esos problemas que se presentan en el día a día; tengo una Pasión por buscar la forma de optimizar y hacer más eficientes los procesos y aplicar esto en las diferentes áreas de la organización.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+
+  </section>
   </main>
 
   <footer id="footer">
     <section>
       <div class="container">
-        <div class="row">
-          <div class="col-sm">
+        <div class="row p-4">
+          <div class="col-sm-6 ">
             <h3>Contáctanos</h3>
-
           </div>
-          <div class="col-sm">
+          <div class="col-sm-3">
             <p>
               t: +57-3168008414 <br>
               e: angieg@bethelmind.com <br>
@@ -98,26 +129,45 @@
             </p>
           </div>
         </div>
+
         <div class="row">
-          <div class="col-sm">
+          <div class="col-sm-6 ">
             <h1>Hablemos</h1>
+            <!-- Iconos y enlaces a Redes Sociales-->
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-linkedin"></i>
           </div>
-          <div class="col-sm">
+          <div class="col-sm-3">
             <p>
               Aportando ideas creativas para su negocio
             </p>
           </div>
         </div>
+
+        <div class="row h-25">
+          <p>Diseñado por Synergy.Tech by David Palacio - Todos los derechos Reservados. 2021</p>
+        </div>
       </div>
       
-      <p>Diseñado por Synergy.Tech by David Palacio - Todos los derechos Reservados. 2021</p>
-    <!-- Iconos y enlaces a Redes Sociales-->
-
-    </section>
+  </section>
   </footer>
+
+    <!--Efectoi movimiento de Cards-->
+<script type="text/javascript" src="./js/vanilla-tilt.js"></script>
+<script type="text/javascript">
+	VanillaTilt.init(document.querySelector(".card"), {
+		max: 25,
+		speed: 400,
+    glare: true,
+    "max-glare": 1,
+	});
+</script>
+
+  <!--Seccion de Scripts de BS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
 
-<!--Seccion de Scripts de BS-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
 
 </html>
